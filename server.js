@@ -15,7 +15,7 @@ const server = http.createServer(app);
 /* ================= SOCKET ================= */
 
 const allowedOrigins = [
-  "https://test-backend-2o8v.onrender.com",
+  "https://task-manager-11-frq3.onrender.com",
   process.env.CLIENT_URL,
 ];
 
