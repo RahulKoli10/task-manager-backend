@@ -16,7 +16,7 @@ app.use(helmet());
 /*   CORS  */
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://task-manager-11-frq3.onrender.com",
   process.env.CLIENT_URL,
 ];
 
