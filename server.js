@@ -15,7 +15,7 @@ const server = http.createServer(app);
 /* ================= SOCKET ================= */
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://test-backend-2o8v.onrender.com",
   process.env.CLIENT_URL,
 ];
 
