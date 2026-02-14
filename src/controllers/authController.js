@@ -50,11 +50,12 @@ export const login = async (req, res) => {
 
     res.cookie("refreshToken", refreshToken, {
   httpOnly: true,
-  secure: false,        // local dev must be false
-  sameSite: "lax",      // 🔥 THIS FIXES IT
+  secure: true,
+  sameSite: "none",
   path: "/",
   maxAge: 7 * 24 * 60 * 60 * 1000,
 });
+
 
 
     res.json({
